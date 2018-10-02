@@ -1,6 +1,9 @@
-Abfrage ob buildModelAlgo und Nahandler etc. type closure sind.
-Falls ja dann direkt als model verwenden nicht über string abfrage gehen.
+TODO / Upcoming:
+- Data Preparation might be done outside of buildEDModel so that for example NAs can be removed from the whole data set
+- Tests for different model types and functionality of 'detectEvents'
+- ?changable dynamic threshold classification?
+- useNormalization parameter in preprocessing cntrl list
 
-
-
-Hallo Fred2
+NEWS:
+V0.3.1 - Added more Forecast models, added ed.print
+V0.3.0 - Added eventDetect automatic movingWindow based event detection over a whole dataset
