@@ -5,6 +5,10 @@ cache: packages
 
 sudo: required
 
+r_packages:
+  - caret
+  - e1071
+
 r_github_packages:
   - jimhester/covr
   - frehbach/EventDetectR
