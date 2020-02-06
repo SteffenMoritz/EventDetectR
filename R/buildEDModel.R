@@ -225,6 +225,7 @@ buildEDModel <- function(x,
       model <- model_NeuralNetwork(x, buildNeuralNetModelControl)
     }
 
+    oldModel$oldModel <- NULL
     model$oldModel <- oldModel
 
     ## -----------------------
